@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Sivuston nimi</h1>
+        <nav aria-label="valikko">
+            <a href="index.html">Pääsivu</a>
+            <a href="pelaa.html">Pelaa tietovisoja</a>
+        </nav>
+    </header>
+    <div class = "difficulty">
+        <h2>Valitse vaikeus aste</h2>
+        <button class="buttonDifficulty" onclick="startGame('easy')">Helppo</button>
+        <button class="buttonDifficulty" onclick="startGame('hard')">Vaikea</button>
+    </div>
+    <script>
+        function startGame(level) {
+            if (level === 'easy') {
+                window.location.href = 'easy.html';
+            } else if (level === 'hard') {
+                window.location.href = 'hard.html';
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

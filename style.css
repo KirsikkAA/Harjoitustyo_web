@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+  background-color: #ffd9d9;   
+  padding: 10px;             
+  text-align: center;          
+  border-radius: 8px; 
+  margin-bottom: 1rem;
+}
+
+body{
+    background: #ebf1fe;
+    font-family: Arial, sans-serif;
+}
+
+.panel{
+    background: #9cbbff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.panel h1{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.panel h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn{
+   width: 100%;
+   border: 1px solid;
+   padding: 10px;
+   margin: 10px 0;
+   text-align: left;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.buttonDifficulty{
+    background: #9cbbff;
+    font-weight: bold;
+    margin: 20px;
+    width: 150px;
+    border: 0;
+    padding: 15px 30px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.difficulty{
+   /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 0 auto;*/
+   
+    display: flex;
+    align-items: center;
+}
+
+.buttonDifficulty:hover {
+    background: #c3bcbc;
+}
+
+.btn:hover:not([disabled]){
+    background: #c3bcbc;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#nextBtn{
+    font-weight: bold;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+#backBtn{
+    font-weight: bold;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct{
+    background: #84dea2;
+}
+
+.incorrect{
+    background: #f55656;
+}
