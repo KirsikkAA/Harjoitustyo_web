@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Who was the first Finnish champion?/HELPPO",
+        question: "Kuka oli ensimmäinen suomalainen maailmanmestari?/HELPPO",
         answers: [
             { text: "Kimi Räikkönen", correct: false},
             { text: "Keke Rosberg", correct: true},
@@ -9,7 +9,7 @@ const questions = [
         ]
     },
     {
-        question: "Which team Lewis Hamilton has not competed/HELPPO",
+        question: "Missä tallissa Lewis Hamilton EI ole kisannut?/HELPPO",
         answers: [
             { text: "Mercedes", correct: false},
             { text: "Mclaren", correct: false},
@@ -17,7 +17,36 @@ const questions = [
             { text: "Williams", correct: true},
         ]
 
+    },
+        {
+        question: "Kuka on viimeisin Ferrarilla maailmanmestaruuden voittanut kuski?/HELPPO",
+        answers: [
+            { text: "Fernando Alonso", correct: false},
+            { text: "Sebastian Vettel", correct: false},
+            { text: "Kimi Räikkönen", correct: true},
+            { text: "Felipe Massa", correct: false},
+        ]
+
+    },
+        {
+        question: "Millä valtiolla on kaikista eniten GP/osakilpailu voittoja?/HELPPO",
+        answers: [
+            { text: "Ranska", correct: false},
+            { text: "Brasilia", correct: false},
+            { text: "Saksa", correct: false},
+            { text: "Iso-Britannia", correct: true},
+        ]
+    },
+        {
+        question: "Millä valtiolla on kaikista eniten GP voittoja?/HELPPO",
+        answers: [
+            { text: "Ranska", correct: true},
+            { text: "Brasilia", correct: false},
+            { text: "Saksa", correct: false},
+            { text: "Iso-Britannia", correct: false},
+        ]
     }
+
 
 ];
 

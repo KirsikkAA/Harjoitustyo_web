@@ -65,15 +65,13 @@ body{
     cursor: pointer;
 }
 
-.difficulty{
-   /* display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    margin: 0 auto;*/
-   
+.difficulty{   
     display: flex;
     align-items: center;
+}
+
+.difficulty h2{
+    color: #000000;
 }
 
 .buttonDifficulty:hover {
@@ -117,3 +115,53 @@ body{
 .incorrect{
     background: #f55656;
 }
+
+
+
+
+
+
+.table-container {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 800px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    thead {
+      background: #fafafa;
+      font-weight: bold;
+      color: #222;
+      border-bottom: 2px solid #e0e0e0;
+    }
+    th, td {
+      padding: 14px 18px;
+      text-align: left;
+    }
+    th {
+      font-size: 15px;
+      letter-spacing: 0.5px;
+    }
+    td {
+      font-size: 16px;
+      border-bottom: 1px solid #eee;
+    }
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+    td.points {
+      text-align: right;
+      font-weight: bold;
+    }
+    td.position {
+      width: 60px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .header-row {
+      background: #fafafa;
+    }
