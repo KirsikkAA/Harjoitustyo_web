@@ -16,14 +16,17 @@
             &nbsp;
             <a href="pelaa.html">Pelaa tietovisoja</a>
             &nbsp;
-            <a href="standings.html">Kuljettajat kaudella 2025</a>
+            <a href="standings.html">Kausi 2025</a>
         </nav>
-    </header>
+    </header> 
     <div class = "difficulty">
         <h2>Valitse vaikeus taso</h2>
+    <div class = "btnDifficultyCont">
         <button class="buttonDifficulty" onclick="startGame('easy')">Helppo</button>
         <button class="buttonDifficulty" onclick="startGame('hard')">Vaikea</button>
+        </div>
     </div>
+
     <script>
         function startGame(level) {
             if (level === 'easy') {
