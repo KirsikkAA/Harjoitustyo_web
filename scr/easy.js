@@ -29,7 +29,7 @@ const questions = [
 
     },
         {
-        question: "Millä valtiolla on kaikista eniten GP/osakilpailu voittoja?/HELPPO",
+        question: "Millä valtiolla on kaikista eniten osakilpailu voittoja?/HELPPO",
         answers: [
             { text: "Ranska", correct: false},
             { text: "Brasilia", correct: false},
@@ -38,12 +38,12 @@ const questions = [
         ]
     },
         {
-        question: "Millä valtiolla on kaikista eniten GP voittoja?/HELPPO",
+        question: "Mikä on eniten peräkkäisiä maailmanmestaruuksia yhdellä kuskilla?/HELPPO",
         answers: [
-            { text: "Ranska", correct: true},
-            { text: "Brasilia", correct: false},
-            { text: "Saksa", correct: false},
-            { text: "Iso-Britannia", correct: false},
+            { text: "5", correct: true},
+            { text: "7", correct: false},
+            { text: "4", correct: false},
+            { text: "8", correct: false},
         ]
     }
 
