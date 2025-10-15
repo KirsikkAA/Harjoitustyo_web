@@ -1,7 +1,7 @@
 # Web-sovellusten perusteet - Harjoitustyö
 
 ## Formula 1 fanin nettisivut:
-Nettisivuilla on saatavilla etusivu, tietovisat ja oikeassa ajassa päivittyvät piste tilanteet
+Nettisivuilla on saatavilla etusivu, tietovisat ja reaaliajassa päivittyvät piste tilanteet
 
 ## Funktiot
 
@@ -12,8 +12,8 @@ Tietovisa kertoo heti vaustauksen annettuasi oliko vastauksesi oikein vai väär
 
 ### 🟢 2025 Kuskit
 Kauden 2025 kuskit näkymällä näet tämän hetken kuskien välisen maailmanmestaruus tilanteen. Taulukossa on kuskin sija, nimi, talli ja pisteet. <br/>
-Taulukon tekoa varten on käytetty avointa data APIa: https://github.com/jolpica/jolpica-f1/tree/main <br/>
-Tämän ansiosta taulukko päivittyy reaaliajasta kauden kuluessa.
+Taulukon tekoa varten on käytetty avointa lähde data APIa: https://github.com/jolpica/jolpica-f1/tree/main <br/>
+Tämän ansiosta taulukko päivittyy reaaliajassa kauden kuluessa.
 
 
 
