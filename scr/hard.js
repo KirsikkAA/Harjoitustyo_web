@@ -1,11 +1,11 @@
 const questions = [
     {
-        question: "Who was the first Finnish champion?/VAIKEA",
+        question: "Missä osakilpailussa jaettiin puolikkaat pistemäärät?/VAIKEA",
         answers: [
-            { text: "Kimi Räikkönen", correct: false},
-            { text: "Keke Rosberg", correct: true},
-            { text: "Nico Rosberg", correct: false},
-            { text: "Mika Häkkinen", correct: false},
+            { text: "Venäjä 2020", correct: false},
+            { text: "Hollanti 2021", correct: false},
+            { text: "Belgia 2021", correct: true},
+            { text: "Itävalta 2020", correct: false},
         ]
     },
     {
@@ -33,6 +33,7 @@ function startQuiz(){
     currentQustionIndex = 0;
     score = 0;
     nextBtn.innerHTML = "Seuraava";
+    backBtn.style.display = "none";
     showQuestion();
 }
 

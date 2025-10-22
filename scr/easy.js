@@ -43,7 +43,7 @@ const questions = [
             { text: "5", correct: true},
             { text: "7", correct: false},
             { text: "4", correct: false},
-            { text: "8", correct: false},
+            { text: "3", correct: false},
         ]
     }
 
@@ -62,6 +62,7 @@ function startQuiz(){
     currentQustionIndex = 0;
     score = 0;
     nextBtn.innerHTML = "Seuraava";
+    backBtn.style.display = "none";
     showQuestion();
 }
 
