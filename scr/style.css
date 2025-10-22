@@ -4,23 +4,36 @@
 }
 
 nav {
-  background-color: #ffd9d9;   
+  background-color: #32323a;   
   padding: 10px;             
-  text-align: center;          
+  text-align: center;         
   border-radius: 8px; 
   margin-bottom: 1rem;
 }
 
+nav a{
+    color: #f7f4f1;
+      text-decoration:none;
+}
+
+nav a:hover{
+     background: #979494;
+}
+
 body{
-    background: #ebf1fe;
+    background: #fff;
     font-family: Arial, sans-serif;
+}
+
+h1{
+    color: #e10600;
 }
 
 
 /*index*/
 .infoBox{
     border: 1px solid #000000;
-    background-color: #f2deff;
+    background-color: #f7f4f1;
     width: 90%;
     max-width: 600px;
     padding: 20px;
@@ -63,12 +76,16 @@ body{
 
 /*Peli*/
 .panel{
-    background: #9cbbff;
+    background: #35353d;
     width: 90%;
     max-width: 600px;
     margin: 45px auto 0;
     border-radius: 10px;
     padding: 20px;
+}
+
+.panel h2{
+    color: #f7f4f1;
 }
 
 .difficulty{   
@@ -113,7 +130,7 @@ body{
 }
 
 .buttonDifficulty{
-    background: #9cbbff;
+    background: #f7f4f1;
     font-weight: bold;
     margin: 20px;
     width: 150px;
@@ -122,6 +139,7 @@ body{
     margin: 20px auto 0;
     border-radius: 10px;
     cursor: pointer;
+    border: 1px solid #000000;
 }
 
 .difficulty h2{
