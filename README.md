@@ -1,7 +1,7 @@
 # Web-sovellusten perusteet - Harjoitustyö
 
 ## Formula 1 fanin nettisivut:
-Nettisivuilla on saatavilla etusivu, tietovisat ja reaaliajassa päivittyvät piste tilanteet
+Nettisivuilla on saatavilla etusivu, tietovisat ja reaaliajassa päivittyvät piste tilanteet. Nettisvuilta on tarkoitus löytää pientä hauskaa tekemistä Formula 1 fanille.
 
 ## Funktiot
 
