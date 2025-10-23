@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Missä osakilpailussa jaettiin puolikkaat pistemäärät?/VAIKEA",
+        question: "Missä osakilpailussa jaettiin puolikkaat pistemäärät?",
         answers: [
             { text: "Venäjä 2020", correct: false},
             { text: "Hollanti 2021", correct: false},
@@ -8,16 +8,43 @@ const questions = [
             { text: "Itävalta 2020", correct: false},
         ]
     },
-    {
-        question: "Which team Lewis Hamilton has not competed/VAIKEA",
+        {
+        question: "Mikä tallikaveri pari on kisannut eniten osakilpailuja yhdessä (104 kilpailua)?",
         answers: [
-            { text: "Mercedes", correct: false},
-            { text: "Mclaren", correct: false},
-            { text: "Ferrari", correct: false},
-            { text: "Williams", correct: true},
+            { text: "Schumacher/Barrichello", correct: true},
+            { text: "Häkkinen/Coulthard", correct: false},
+            { text: "Hamilton/Bottas", correct: false},
+            { text: "Verstappen/Perez", correct: false},
         ]
+    },
+        {
+        question: "Kuinka monta naista on osallistunut osakilpailu viikonloppuun (mukaanlukien harjoitus)?",
+        answers: [
+            { text: "4", correct: false},
+            { text: "8", correct: false},
+            { text: "6", correct: true},
+            { text: "2", correct: false},
+        ]
+    },
+        {
+        question: "Minä vuonna ensimmäinen sprintti kilpailu pidettiin?",
+        answers: [
+            { text: "2023", correct: false},
+            { text: "2021", correct: true},
+            { text: "2018", correct: false},
+            { text: "2022", correct: false},
+        ]
+    },
+        {
+        question: "Kuka on voittanut eniten mestaruuksia eri talleilla?",
+        answers: [
+            { text: "Alain Prost", correct: false},
+            { text: "Lewis Hamilton", correct: false},
+            { text: "Nelson Piquet", correct: false},
+            { text: "Juan Manuel Fangio", correct: true},
+        ]
+    },
 
-    }
 
 ];
 

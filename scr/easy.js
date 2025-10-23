@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Kuka oli ensimmäinen suomalainen maailmanmestari?/HELPPO",
+        question: "Kuka oli ensimmäinen suomalainen maailmanmestari?",
         answers: [
             { text: "Kimi Räikkönen", correct: false},
             { text: "Keke Rosberg", correct: true},
@@ -8,8 +8,17 @@ const questions = [
             { text: "Mika Häkkinen", correct: false},
         ]
     },
-    {
-        question: "Missä tallissa Lewis Hamilton EI ole kisannut?/HELPPO",
+        {
+        question: "Nuorin osakilpailun aloittanut kuski?",
+        answers: [
+            { text: "Max Verstappen", correct: true},
+            { text: "Kimi Antonelli", correct: false},
+            { text: "Lance Stroll", correct: false},
+            { text: "Jaime Alguersuari", correct: false},
+        ]
+    },
+        {
+        question: "Missä tallissa Lewis Hamilton EI ole kisannut?",
         answers: [
             { text: "Mercedes", correct: false},
             { text: "Mclaren", correct: false},
@@ -19,7 +28,7 @@ const questions = [
 
     },
         {
-        question: "Kuka on viimeisin Ferrarilla maailmanmestaruuden voittanut kuski?/HELPPO",
+        question: "Kuka on viimeisin Ferrarilla maailmanmestaruuden voittanut kuski?",
         answers: [
             { text: "Fernando Alonso", correct: false},
             { text: "Sebastian Vettel", correct: false},
@@ -29,7 +38,7 @@ const questions = [
 
     },
         {
-        question: "Millä valtiolla on kaikista eniten osakilpailu voittoja?/HELPPO",
+        question: "Millä valtiolla on kaikista eniten osakilpailu voittoja?",
         answers: [
             { text: "Ranska", correct: false},
             { text: "Brasilia", correct: false},
@@ -37,15 +46,6 @@ const questions = [
             { text: "Iso-Britannia", correct: true},
         ]
     },
-        {
-        question: "Mikä on eniten peräkkäisiä maailmanmestaruuksia yhdellä kuskilla?/HELPPO",
-        answers: [
-            { text: "5", correct: true},
-            { text: "7", correct: false},
-            { text: "4", correct: false},
-            { text: "3", correct: false},
-        ]
-    }
 
 
 ];
