@@ -114,7 +114,6 @@ function showScore(){
     nextBtn.innerHTML = "Pelaa uudestaan";
     nextBtn.style.display = "block";
     backBtn.style.display = "block";
-    //tää menee siinä pieleen, et jos aloitat uuden pelin backBtn on silti näkyvillä
 }
 
 
